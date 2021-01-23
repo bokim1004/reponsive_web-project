@@ -1,403 +1,3 @@
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .navbar {
-    width: 768px;
-    height: 72px;
-    box-shadow: 0px 3px 6px #1b224628;
-    opacity: 1;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 100;
-    background: #ffffff 0% 0% no-repeat padding-box;
-
-    .navBox {
-      display: flex;
-      width: 100%;
-      height: 32px;
-
-      .title {
-        width: 150px;
-        height: 20px;
-        margin-left: 32px;
-        margin-top: 26px;
-      }
-
-      .border {
-        height: 30px;
-        border-left: 2px solid #dcdfee;
-        margin-top: 20px;
-        margin-left: 15px;
-      }
-
-      ul {
-        display: none;
-      }
-    }
-
-    .user {
-      position: absolute;
-      bottom: 20px;
-      left: 610px;
-    }
-  }
-  body {
-    margin-top: 70px;
-    margin-left: 0;
-    position: relative;
-
-    .classBox {
-      width: 768px;
-      height: 412px;
-      background: #131830 0% 0% no-repeat padding-box;
-      opacity: 1;
-      position: relative;
-
-      img {
-        margin-top: 50px;
-        margin-left: 150px;
-        width: 250px;
-        height: 150px;
-        border: 1px solid #ffffff;
-        border-radius: 4px;
-        opacity: 1;
-      }
-
-      .name {
-        width: 792px;
-        height: 30px;
-        text-align: left;
-        font: normal normal bold 17px/17px Noto Sans CJK KR;
-        letter-spacing: 0px;
-        color: #ffffff;
-        opacity: 1;
-        position: absolute;
-        left: 150px;
-      }
-
-      .description {
-        text-align: left;
-        font: normal normal normal 14px/18px Noto Sans CJK KR;
-        letter-spacing: 0px;
-        color: #ffffff;
-        opacity: 1;
-        position: absolute;
-        left: 360px;
-        bottom: 60px;
-      }
-
-      .date {
-        text-align: left;
-        font: normal normal normal 10px/20px Noto Sans CJK KR;
-        letter-spacing: 0px;
-        color: #ffffff;
-        opacity: 1;
-        position: absolute;
-        left: 150px;
-        bottom: 30px;
-      }
-    }
-
-    .submitBox {
-      width: 330px;
-      height: 450px;
-      box-shadow: 0px 4px 12px #13183033;
-      border-radius: 4px;
-      background: #ffffff 0% 0% no-repeat padding-box;
-      opacity: 1;
-      position: fixed;
-      top: 100px;
-      left: 1228px;
-      z-index: 100;
-      display: flex;
-      flex-direction: column;
-
-      .first {
-        width: 330px;
-        height: 50px;
-        background: #f7e2ed 0% 0% no-repeat padding-box;
-        border-radius: 4px;
-        opacity: 1;
-        margin-bottom: 10px;
-
-        p {
-          text-align: left;
-          font: normal normal normal 11px/11px Noto Sans CJK KR;
-          letter-spacing: 0px;
-          color: #71024f;
-          opacity: 1;
-          padding-left: 24px;
-          // margin: 12px;
-        }
-
-        .dot {
-          position: absolute;
-          top: 10px;
-          left: 280px;
-          width: 10px;
-          height: 20px;
-          opacity: 1;
-        }
-      }
-
-      .second {
-        width: 280px;
-        height: 100px;
-        border-bottom: 1px solid #dcdfee;
-        margin-left: 24px;
-        margin-top: 10px;
-
-        span {
-          text-align: left;
-          font: normal normal medium 12px/28px Noto Sans CJK KR;
-          letter-spacing: 0px;
-          color: #394dd1;
-          background: #ffffff 0% 0% no-repeat padding-box;
-          border: 1px solid #ebedff;
-          border-radius: 4px;
-          opacity: 1;
-          margin-left: 6px;
-          margin-top: 10px;
-          padding: 3px;
-        }
-
-        .smallTitle {
-          text-align: left;
-          font: normal normal normal 12px/20px Noto Sans CJK KR;
-          letter-spacing: 0px;
-          color: #242e64;
-          opacity: 1;
-          margin-left: 6px;
-          padding-top: 10px;
-        }
-
-        .bigTitle {
-          text-align: left;
-          font: normal normal bold 16px/20px Noto Sans CJK KR;
-          letter-spacing: 0px;
-          color: #242e64;
-          opacity: 1;
-          margin-left: 6px;
-        }
-      }
-
-      .third {
-        width: 280px;
-        height: 100px;
-        border-bottom: 1px solid #dcdfee;
-        margin-left: 24px;
-        margin-top: 15px;
-
-        .nickName {
-          position: relative;
-          img {
-            opacity: 1;
-            width: 20px;
-            height: 20px;
-          }
-          span {
-            text-align: left;
-            font: normal normal normal 12px/20px Noto Sans CJK KR;
-            letter-spacing: 0px;
-            color: #4f5783;
-            opacity: 1;
-            position: absolute;
-            top: 20px;
-            left: 30px;
-          }
-        }
-        .contentList {
-          display: flex;
-          margin-left: 2px;
-
-          span {
-            text-align: left;
-            font: normal normal normal 12px/20px Noto Sans CJK KR;
-            letter-spacing: 0px;
-            color: #242e64;
-            opacity: 1;
-            padding-left: 7px;
-          }
-        }
-      }
-      .fourth {
-        margin-left: 20px;
-        p {
-          text-align: left;
-          font: normal normal normal 12px/20px Noto Sans CJK KR;
-          letter-spacing: 0px;
-          color: #242e64;
-          opacity: 1;
-          margin: 5px;
-        }
-      }
-      button {
-        background: #394dd1 0% 0% no-repeat padding-box;
-        border-radius: 4px;
-        opacity: 1;
-        width: 280px;
-        height: 40px;
-        text-align: center;
-        font: normal normal medium 16px/30px Noto Sans CJK KR;
-        letter-spacing: 0px;
-        color: #ffffff;
-        opacity: 1;
-        margin-left: 24px;
-        border: none;
-        outline: none;
-      }
-      .lastBox {
-        width: 280px;
-        height: 40px;
-        background: #f5f6ff 0% 0% no-repeat padding-box;
-        border-radius: 4px;
-        opacity: 1;
-        margin-left: 24px;
-        margin-top: 10px;
-        position: relative;
-
-        .heart {
-          display: flex;
-          position: absolute;
-          top: 10px;
-          left: 10px;
-          span {
-            text-align: left;
-            font: normal normal normal 12px/20px Noto Sans CJK KR;
-            letter-spacing: 0px;
-            color: #242e64;
-            opacity: 1;
-            padding-left: 8px;
-          }
-        }
-        .sharing {
-          display: flex;
-          position: absolute;
-          top: 10px;
-          left: 190px;
-          span {
-            text-align: left;
-            font: normal normal normal 12px/20px Noto Sans CJK KR;
-            letter-spacing: 0px;
-            color: #242e64;
-            opacity: 1;
-            padding-left: 10px;
-          }
-        }
-      }
-    }
-
-    .introBar {
-      width: 768px;
-      height: 48px;
-      box-shadow: 0px 4px 8px #242e6429;
-      opacity: 1;
-
-      ul {
-        list-style: none;
-        display: flex;
-        margin-left: 80px;
-        margin-top: 0px;
-      }
-
-      li {
-        text-align: left;
-        font: normal normal normal 13px/22px Noto Sans CJK KR;
-        letter-spacing: 0px;
-        color: #7b81a2;
-        opacity: 1;
-        margin-left: 36px;
-        margin-top: 10px;
-      }
-
-      .introduce:after {
-        content: "";
-        display: block;
-        width: 26px;
-        border-bottom: 3px solid #131830;
-        margin: 13px auto;
-      }
-    }
-
-    .mainBox {
-      width: 500px;
-      height: 1000px;
-      box-shadow: 0px 1px 4px #13183033;
-      border-radius: 4px;
-      opacity: 1;
-      margin-top: 50px;
-      margin-left: 100px;
-
-      .smallBox {
-        height: 80px;
-        padding-left: 24px;
-        padding-top: 24px;
-        margin-top: 10px;
-
-        .head {
-          text-align: left;
-          font: normal normal bold 15px/22px Noto Sans CJK KR;
-          letter-spacing: 0px;
-          color: #242e64;
-          opacity: 1;
-        }
-
-        .content {
-          text-align: left;
-          font: normal normal normal 12px/22px Noto Sans CJK KR;
-          letter-spacing: 0px;
-          color: #242e64;
-          opacity: 1;
-          margin-bottom: -10px;
-        }
-      }
-
-      .middleBox {
-        height: 100px;
-        padding-left: 24px;
-        padding-top: 24px;
-
-        .head {
-          text-align: left;
-          font: normal normal bold 15px/22px Noto Sans CJK KR;
-          letter-spacing: 0px;
-          color: #242e64;
-          opacity: 1;
-        }
-
-        .content {
-          text-align: left;
-          font: normal normal normal 12px/22px Noto Sans CJK KR;
-          letter-spacing: 0px;
-          color: #242e64;
-          opacity: 1;
-          margin-bottom: -10px;
-          width: 450px;
-          height: 72px;
-        }
-      }
-
-      img {
-        width: 450px;
-        height: 300px;
-        opacity: 1;
-        margin-left: 20px;
-        margin-top: 45px;
-      }
-
-      .lastBox {
-        width: 450px;
-        height: 120px;
-        text-align: left;
-        font: normal normal normal 12px/22px Noto Sans CJK KR;
-        letter-spacing: 0px;
-        color: #242e64;
-        opacity: 1;
-        padding-left: 24px;
-        padding-top: 10px;
-      }
-    }
-  }
-}
 .navbar {
   width: 1920px;
   height: 72px;
@@ -805,6 +405,408 @@ body {
       opacity: 1;
       padding-left: 24px;
       padding-top: 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    width: 768px;
+    height: 72px;
+    box-shadow: 0px 3px 6px #1b224628;
+    opacity: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background: #ffffff 0% 0% no-repeat padding-box;
+
+    .navBox {
+      display: flex;
+      width: 100%;
+      height: 32px;
+
+      .title {
+        width: 150px;
+        height: 20px;
+        margin-left: 32px;
+        margin-top: 26px;
+      }
+
+      .border {
+        height: 30px;
+        border-left: 2px solid #dcdfee;
+        margin-top: 20px;
+        margin-left: 15px;
+      }
+
+      ul {
+        display: none;
+      }
+    }
+
+    .user {
+      position: absolute;
+      bottom: 20px;
+      left: 690px;
+    }
+  }
+  body {
+    margin-top: 70px;
+    margin-left: 0;
+    position: relative;
+
+    .classBox {
+      width: 768px;
+      height: 412px;
+      background: #131830 0% 0% no-repeat padding-box;
+      opacity: 1;
+      position: relative;
+
+      img {
+        margin-top: 50px;
+        margin-left: 150px;
+        width: 250px;
+        height: 150px;
+        border: 1px solid #ffffff;
+        border-radius: 4px;
+        opacity: 1;
+      }
+
+      .name {
+        width: 792px;
+        height: 30px;
+        text-align: left;
+        font: normal normal bold 17px/17px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        color: #ffffff;
+        opacity: 1;
+        position: absolute;
+        left: 150px;
+      }
+
+      .description {
+        text-align: left;
+        font: normal normal normal 14px/18px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        color: #ffffff;
+        opacity: 1;
+        position: absolute;
+        left: 150px;
+        bottom: 100px;
+        width: 300px;
+      }
+
+      .date {
+        text-align: left;
+        font: normal normal normal 10px/20px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        color: #ffffff;
+        opacity: 1;
+        position: absolute;
+        left: 150px;
+        bottom: 50px;
+      }
+    }
+
+    .submitBox {
+      width: 330px;
+      height: 450px;
+      box-shadow: 0px 4px 12px #13183033;
+      border-radius: 4px;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      opacity: 1;
+      position: fixed;
+      top: 100px;
+      left: 450px;
+      z-index: 100 !important;
+      display: flex;
+      flex-direction: column;
+
+      .first {
+        width: 330px;
+        height: 50px;
+        background: #f7e2ed 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        opacity: 1;
+        margin-bottom: 10px;
+
+        p {
+          text-align: left;
+          font: normal normal normal 11px/11px Noto Sans CJK KR;
+          letter-spacing: 0px;
+          color: #71024f;
+          opacity: 1;
+          padding-left: 24px;
+          // margin: 12px;
+        }
+
+        .dot {
+          position: absolute;
+          top: 10px;
+          left: 280px;
+          width: 10px;
+          height: 20px;
+          opacity: 1;
+        }
+      }
+
+      .second {
+        width: 280px;
+        height: 100px;
+        border-bottom: 1px solid #dcdfee;
+        margin-left: 24px;
+        margin-top: 10px;
+
+        span {
+          text-align: left;
+          font: normal normal medium 12px/28px Noto Sans CJK KR;
+          letter-spacing: 0px;
+          color: #394dd1;
+          background: #ffffff 0% 0% no-repeat padding-box;
+          border: 1px solid #ebedff;
+          border-radius: 4px;
+          opacity: 1;
+          margin-left: 6px;
+          margin-top: 10px;
+          padding: 3px;
+        }
+
+        .smallTitle {
+          text-align: left;
+          font: normal normal normal 12px/20px Noto Sans CJK KR;
+          letter-spacing: 0px;
+          color: #242e64;
+          opacity: 1;
+          margin-left: 6px;
+          padding-top: 10px;
+        }
+
+        .bigTitle {
+          text-align: left;
+          font: normal normal bold 16px/20px Noto Sans CJK KR;
+          letter-spacing: 0px;
+          color: #242e64;
+          opacity: 1;
+          margin-left: 6px;
+        }
+      }
+
+      .third {
+        width: 280px;
+        height: 100px;
+        border-bottom: 1px solid #dcdfee;
+        margin-left: 24px;
+        margin-top: 15px;
+
+        .nickName {
+          position: relative;
+          img {
+            opacity: 1;
+            width: 20px;
+            height: 20px;
+          }
+          span {
+            text-align: left;
+            font: normal normal normal 12px/20px Noto Sans CJK KR;
+            letter-spacing: 0px;
+            color: #4f5783;
+            opacity: 1;
+            position: absolute;
+            top: 2px;
+            left: 30px;
+          }
+        }
+        .contentList {
+          display: flex;
+          margin-left: 2px;
+
+          span {
+            text-align: left;
+            font: normal normal normal 12px/20px Noto Sans CJK KR;
+            letter-spacing: 0px;
+            color: #242e64;
+            opacity: 1;
+            padding-left: 7px;
+          }
+        }
+      }
+      .fourth {
+        margin-left: 20px;
+        p {
+          text-align: left;
+          font: normal normal normal 12px/20px Noto Sans CJK KR;
+          letter-spacing: 0px;
+          color: #242e64;
+          opacity: 1;
+          margin: 5px;
+        }
+      }
+      button {
+        background: #394dd1 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        opacity: 1;
+        width: 280px;
+        height: 40px;
+        text-align: center;
+        font: normal normal medium 16px/30px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        color: #ffffff;
+        opacity: 1;
+        margin-left: 24px;
+        border: none;
+        outline: none;
+      }
+      .lastBox {
+        width: 280px;
+        height: 40px;
+        background: #f5f6ff 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        opacity: 1;
+        margin-left: 24px;
+        margin-top: 10px;
+        position: relative;
+
+        .heart {
+          display: flex;
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          span {
+            text-align: left;
+            font: normal normal normal 12px/20px Noto Sans CJK KR;
+            letter-spacing: 0px;
+            color: #242e64;
+            opacity: 1;
+            padding-left: 8px;
+          }
+        }
+        .sharing {
+          display: flex;
+          position: absolute;
+          top: 10px;
+          left: 190px;
+          span {
+            text-align: left;
+            font: normal normal normal 12px/20px Noto Sans CJK KR;
+            letter-spacing: 0px;
+            color: #242e64;
+            opacity: 1;
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+
+    .introBar {
+      width: 768px;
+      height: 48px;
+      box-shadow: 0px 4px 8px #242e6429;
+      opacity: 1;
+
+      ul {
+        list-style: none;
+        display: flex;
+        margin-left: 80px;
+        margin-top: 0px;
+      }
+
+      li {
+        text-align: left;
+        font: normal normal normal 13px/22px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        color: #7b81a2;
+        opacity: 1;
+        margin-left: 36px;
+        margin-top: 10px;
+      }
+
+      .introduce:after {
+        content: "";
+        display: block;
+        width: 26px;
+        border-bottom: 3px solid #131830;
+        margin: 13px auto;
+      }
+    }
+
+    .mainBox {
+      width: 500px;
+      height: 1000px;
+      box-shadow: 0px 1px 4px #13183033;
+      border-radius: 4px;
+      opacity: 1;
+      margin-top: 50px;
+      margin-left: 100px;
+
+      .smallBox {
+        height: 80px;
+        padding-left: 24px;
+        padding-top: 24px;
+        margin-top: 10px;
+
+        .head {
+          text-align: left;
+          font: normal normal bold 15px/22px Noto Sans CJK KR;
+          letter-spacing: 0px;
+          color: #242e64;
+          opacity: 1;
+        }
+
+        .content {
+          text-align: left;
+          font: normal normal normal 12px/22px Noto Sans CJK KR;
+          letter-spacing: 0px;
+          color: #242e64;
+          opacity: 1;
+          margin-bottom: -10px;
+        }
+      }
+
+      .middleBox {
+        height: 100px;
+        padding-left: 24px;
+        padding-top: 24px;
+
+        .head {
+          text-align: left;
+          font: normal normal bold 15px/22px Noto Sans CJK KR;
+          letter-spacing: 0px;
+          color: #242e64;
+          opacity: 1;
+        }
+
+        .content {
+          text-align: left;
+          font: normal normal normal 12px/22px Noto Sans CJK KR;
+          letter-spacing: 0px;
+          color: #242e64;
+          opacity: 1;
+          margin-bottom: -10px;
+          width: 450px;
+          height: 72px;
+        }
+      }
+
+      img {
+        width: 450px;
+        height: 300px;
+        opacity: 1;
+        margin-left: 20px;
+        margin-top: 45px;
+      }
+
+      .lastBox {
+        width: 450px;
+        height: 120px;
+        text-align: left;
+        font: normal normal normal 12px/22px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        color: #242e64;
+        opacity: 1;
+        padding-left: 24px;
+        padding-top: 10px;
+      }
     }
   }
 }
