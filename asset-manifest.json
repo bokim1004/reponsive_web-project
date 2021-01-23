@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reponsive_web-project/static/css/main.e12b2bba.chunk.css",
+    "main.css": "/reponsive_web-project/static/css/main.425c4bcd.chunk.css",
     "main.js": "/reponsive_web-project/static/js/main.aad9a933.chunk.js",
     "main.js.map": "/reponsive_web-project/static/js/main.aad9a933.chunk.js.map",
     "runtime-main.js": "/reponsive_web-project/static/js/runtime-main.6d10ebc1.js",
@@ -8,14 +8,14 @@
     "static/js/2.5f1db27d.chunk.js": "/reponsive_web-project/static/js/2.5f1db27d.chunk.js",
     "static/js/2.5f1db27d.chunk.js.map": "/reponsive_web-project/static/js/2.5f1db27d.chunk.js.map",
     "index.html": "/reponsive_web-project/index.html",
-    "static/css/main.e12b2bba.chunk.css.map": "/reponsive_web-project/static/css/main.e12b2bba.chunk.css.map",
+    "static/css/main.425c4bcd.chunk.css.map": "/reponsive_web-project/static/css/main.425c4bcd.chunk.css.map",
     "static/js/2.5f1db27d.chunk.js.LICENSE.txt": "/reponsive_web-project/static/js/2.5f1db27d.chunk.js.LICENSE.txt",
     "static/media/macbookImg.30692cda.png": "/reponsive_web-project/static/media/macbookImg.30692cda.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6d10ebc1.js",
     "static/js/2.5f1db27d.chunk.js",
-    "static/css/main.e12b2bba.chunk.css",
+    "static/css/main.425c4bcd.chunk.css",
     "static/js/main.aad9a933.chunk.js"
   ]
 }
